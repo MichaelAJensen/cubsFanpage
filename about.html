@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>My Website</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="cubs">HOME OF THE CHICAGO CUBS</h1>
+    </header>
+    <nav class="about">
+        <a href="./index.html">HOME PAGE</a>
+        <a href="./live.html">CUBS LIVE</a>
+    </nav>
+
+    <main>
+        <form class="form">
+            <fieldset>
+                <!-- name and email reg modal-->
+                <h4>Do you want to receive our monthly newsletter?</h4>
+                <!--old code <legend>Do you want to receive our monthy newsletter?</legend> -->
+                <label for="news">Yes
+                    <input type="radio" name="news" id="news" value="yes" />
+                    <label for="news">No
+                        <input type="radio" name="news" id="news" value="no" />
+                    </label>
+            </fieldset>
+
+            <fieldset>
+                <!-- just name and email reg modal -->
+                <h4>Would you like to enter today's drawing for Chicago Cubs merchandise?</h4>
+
+                <label for="merch">Yes
+                    <input type="radio" name="merch" id="merch" value="yes" />
+                </label>
+                <label for="merch">No
+                    <input type="radio" name="merch" id="merch" value="no" />
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <!-- Name, email, address modal -->
+                <h4>Are you interested in Cactus Leaugue Spring Training information? </h4>
+                <label for="spring">Yes
+                    <input type="radio" name="spring" id="spring" value="yes" />
+                </label>
+                <label for="spring">No
+                    <input type="radio" name="spring" id="spring" value="no" />
+                </label>
+            </fieldset>
+            <fieldset>
+                <h4>How did you hear about us?</h4>
+                <label for="text">
+                    <input class="how" type="text" placeholder="Tell Us">
+                </label>
+
+
+            </fieldset><br>
+            <button class="button2" type="submit">Submit</button>
+        </form>
+        <section class="pics2">
+            <h2>Come join us for Spring Training at Sloan Park in sunny Mesa, AZ, for Chicago Cubs Cactus League play.
+            </h2>
+            <div>
+                <img src="./az flag pic.png" alt="flag pic">
+                <img src="./cactus pic.jpg" alt="cactus pic">
+            </div>
+        </section><br>
+        <section class="pics1">
+            <h2 class="merch">Order your Chicago Cubs merchandise for this holiday season at early discounted rates.
+            </h2>
+            <div class="sale">
+                <!-- <img class="sale" src="./50% off pic.jpg" alt="50% off"> -->
+                <img src="./tamanna-rumee-mIqyYpSNq3o-unsplash.jpg" />
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
